@@ -1,0 +1,110 @@
+700 0 1 0           
+30 Autodesk Translation Framework 20 ASM 228.3.1.65535 NT 24 Sat Apr 29 16:48:10 2023 
+1 9.999999999999999547e-07 1.000000000000000036e-10 
+body $1 -1 $-1 $2 $-1 $3 #
+rgb_color-st-attrib $-1 -1 $4 $-1 $0 0.7450980392156862919 0.737254901960784359 0.7294117647058823151 #
+lump $-1 -1 $-1 $-1 $5 $0 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+DXID-attrib $-1 -1 $-1 $1 $0 @10 ASM ENTITY @104 STEEL_PLATE_L2.IPT|:|34731630547C04AE8473BD8BBABC7AC003727525|:|DA4B9237BACCCDF19C0760CAB7AEC4A8359010B0 #
+shell $-1 -1 $-1 $-1 $-1 $6 $-1 $2 #
+face $7 -1 $-1 $8 $9 $5 $-1 $10 forward single #
+DXID-attrib $-1 -1 $-1 $-1 $6 @10 ASM ENTITY @36 c05b9ece-9809-47f7-8041-935c859b6304 #
+face $11 -1 $-1 $12 $13 $5 $-1 $14 forward single #
+loop $-1 -1 $-1 $-1 $15 $6 #
+plane-surface $-1 -1 $-1 -29.99999999999998579 0 60 0 0 1 10 0 0 forward_v I I I I #
+DXID-attrib $-1 -1 $-1 $-1 $8 @10 ASM ENTITY @36 ce27df2e-7ac6-4d16-b111-5a245e337b2a #
+face $16 -1 $-1 $17 $18 $5 $-1 $19 forward single #
+loop $-1 -1 $-1 $-1 $20 $8 #
+plane-surface $-1 -1 $-1 -30.00000000000000711 0 -40 -1 0 2.220446049250313081e-16 2.220446049250313081e-15 0 10 forward_v I I I I #
+coedge $-1 -1 $-1 $21 $22 $23 $24 forward $9 $-1 #
+DXID-attrib $-1 -1 $-1 $-1 $12 @10 ASM ENTITY @36 a04c44ca-170a-4afe-aadb-690833df817d #
+face $25 -1 $-1 $26 $27 $5 $-1 $28 forward single #
+loop $-1 -1 $-1 $-1 $29 $12 #
+plane-surface $-1 -1 $-1 29.99999999999999289 0 -40 0 0 -1 -10 0 0 forward_v I I I I #
+coedge $-1 -1 $-1 $30 $31 $32 $33 forward $13 $-1 #
+coedge $-1 -1 $-1 $34 $15 $35 $36 forward $9 $-1 #
+coedge $-1 -1 $-1 $15 $34 $30 $37 reversed $9 $-1 #
+coedge $-1 -1 $-1 $32 $38 $15 $24 reversed $39 $-1 #
+edge $40 -1 $-1 $41 0 $42 5.999999999999998224 $15 $43 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $-1 $17 @10 ASM ENTITY @36 18be3000-b024-434e-831d-069942952f61 #
+face $44 -1 $-1 $45 $46 $5 $-1 $47 forward single #
+loop $-1 -1 $-1 $-1 $48 $17 #
+plane-surface $-1 -1 $-1 30 0 60 1 0 -8.881784197001252816e-17 -8.881784197001252323e-16 0 -10 forward_v I I I I #
+coedge $-1 -1 $-1 $49 $50 $51 $52 forward $18 $-1 #
+coedge $-1 -1 $-1 $53 $20 $22 $37 forward $13 $-1 #
+coedge $-1 -1 $-1 $20 $53 $49 $54 reversed $13 $-1 #
+coedge $-1 -1 $-1 $51 $23 $20 $33 reversed $39 $-1 #
+edge $55 -1 $-1 $56 0 $41 10 $20 $57 forward @7 unknown #
+coedge $-1 -1 $-1 $22 $21 $58 $59 reversed $9 $-1 #
+coedge $-1 -1 $-1 $48 $60 $21 $36 reversed $27 $-1 #
+edge $61 -1 $-1 $42 0 $62 0.5 $35 $63 forward @7 unknown #
+edge $64 -1 $-1 $41 0 $65 0.5 $30 $66 forward @7 unknown #
+coedge $-1 -1 $-1 $23 $51 $48 $67 reversed $39 $-1 #
+loop $-1 -1 $-1 $-1 $38 $45 #
+DXID-attrib $-1 -1 $-1 $-1 $24 @10 ASM ENTITY @36 3ea4239f-51ef-4ce2-b299-0633d1b38c81 #
+vertex $-1 -1 $-1 $24 $68 #
+vertex $-1 -1 $-1 $24 $69 #
+straight-curve $-1 -1 $-1 -29.99999999999998579 0 60 10 0 0 F 0 F 5.999999999999998224 #
+DXID-attrib $-1 -1 $-1 $-1 $26 @10 ASM ENTITY @36 1fd27fc0-1a3f-46f4-95be-a4ea0eb074b8 #
+face $70 -1 $-1 $-1 $39 $5 $-1 $71 reversed single #
+loop $-1 -1 $-1 $-1 $72 $26 #
+plane-surface $-1 -1 $-1 -4.440892098500626162e-15 5 10 0 1 0 0 0 10 forward_v I I I I #
+coedge $-1 -1 $-1 $73 $35 $38 $67 forward $27 $-1 #
+coedge $-1 -1 $-1 $74 $29 $31 $54 forward $18 $-1 #
+coedge $-1 -1 $-1 $29 $74 $73 $75 reversed $18 $-1 #
+coedge $-1 -1 $-1 $38 $32 $29 $52 reversed $39 $-1 #
+edge $76 -1 $-1 $77 0 $56 6 $29 $78 forward @7 unknown #
+coedge $-1 -1 $-1 $31 $30 $79 $80 reversed $13 $-1 #
+edge $81 -1 $-1 $56 0 $82 0.5 $49 $83 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $-1 $33 @10 ASM ENTITY @36 d821434f-986b-4d58-b423-947d64d0b452 #
+vertex $-1 -1 $-1 $33 $84 #
+straight-curve $-1 -1 $-1 -30.00000000000000711 0 -40 2.220446049250313081e-15 0 10 F 0 F 10 #
+coedge $-1 -1 $-1 $72 $79 $34 $59 forward $46 $-1 #
+edge $85 -1 $-1 $65 0 $62 5.999999999999998224 $34 $86 forward @7 unknown #
+coedge $-1 -1 $-1 $35 $73 $72 $87 reversed $27 $-1 #
+DXID-attrib $-1 -1 $-1 $-1 $36 @10 ASM ENTITY @36 d90c59b9-e721-4eeb-a3fe-81d7d16e0420 #
+vertex $-1 -1 $-1 $36 $88 #
+straight-curve $-1 -1 $-1 30 0 60 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $37 @10 ASM ENTITY @36 98103c8f-1a0c-40a1-aa0e-99c39d389627 #
+vertex $-1 -1 $-1 $59 $89 #
+straight-curve $-1 -1 $-1 -29.99999999999998579 0 60 0 10 0 I I #
+edge $90 -1 $-1 $42 0 $77 10 $48 $91 forward @7 unknown #
+point $-1 -1 $-1 -29.99999999999998579 0 60 #
+point $-1 -1 $-1 30 0 60 #
+DXID-attrib $-1 -1 $-1 $-1 $45 @10 ASM ENTITY @36 42e84e9f-e506-4e1f-b8c5-f1beb45041f1 #
+plane-surface $-1 -1 $-1 -4.440892098500626162e-15 0 10 0 1 0 0 0 10 forward_v I I I I #
+coedge $-1 -1 $-1 $92 $58 $60 $87 forward $46 $-1 #
+coedge $-1 -1 $-1 $60 $48 $50 $75 forward $27 $-1 #
+coedge $-1 -1 $-1 $50 $49 $92 $93 reversed $18 $-1 #
+edge $94 -1 $-1 $77 0 $95 0.5 $73 $96 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $-1 $52 @10 ASM ENTITY @36 0db5bd0a-421c-49e8-99bd-06da7627212d #
+vertex $-1 -1 $-1 $52 $97 #
+straight-curve $-1 -1 $-1 29.99999999999999289 0 -40 -10 0 0 F 0 F 6 #
+coedge $-1 -1 $-1 $58 $92 $53 $80 forward $46 $-1 #
+edge $98 -1 $-1 $82 0 $65 10 $53 $99 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $-1 $54 @10 ASM ENTITY @36 12a23c8d-21b5-48e4-aa79-bbcc599c84d9 #
+vertex $-1 -1 $-1 $80 $100 #
+straight-curve $-1 -1 $-1 -30.00000000000000711 0 -40 0 10 0 I I #
+point $-1 -1 $-1 -30.00000000000000711 0 -40 #
+DXID-attrib $-1 -1 $-1 $-1 $59 @10 ASM ENTITY @36 46174b87-53cd-4db5-831f-2379de1097fe #
+straight-curve $-1 -1 $-1 -29.99999999999998579 5 60 10 0 0 I I #
+edge $101 -1 $-1 $62 0 $95 10 $60 $102 forward @7 unknown #
+point $-1 -1 $-1 30 5 60 #
+point $-1 -1 $-1 -29.99999999999998224 5 60 #
+DXID-attrib $-1 -1 $-1 $-1 $67 @10 ASM ENTITY @36 a7bc1400-c5cb-4122-8205-a93d0301bc9b #
+straight-curve $-1 -1 $-1 30 0 60 -8.881784197001252323e-16 0 -10 F 0 F 10 #
+coedge $-1 -1 $-1 $79 $72 $74 $93 forward $46 $-1 #
+edge $103 -1 $-1 $95 0 $82 6 $74 $104 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $-1 $75 @10 ASM ENTITY @36 062b49ca-5583-4bc7-851f-1bc71385352a #
+vertex $-1 -1 $-1 $93 $105 #
+straight-curve $-1 -1 $-1 29.99999999999999289 0 -40 0 10 0 I I #
+point $-1 -1 $-1 29.99999999999999289 0 -40 #
+DXID-attrib $-1 -1 $-1 $-1 $80 @10 ASM ENTITY @36 1d37d5ca-7049-46b9-8b00-d2bb207bcef0 #
+straight-curve $-1 -1 $-1 -30.00000000000000711 5 -40 2.220446049250313081e-15 0 10 I I #
+point $-1 -1 $-1 -30.00000000000000711 5 -40 #
+DXID-attrib $-1 -1 $-1 $-1 $87 @10 ASM ENTITY @36 a1179281-4377-438e-bd31-9e8e1fddc499 #
+straight-curve $-1 -1 $-1 30 5 60 -8.881784197001252323e-16 0 -10 I I #
+DXID-attrib $-1 -1 $-1 $-1 $93 @10 ASM ENTITY @36 8811a21d-5e12-478e-9c23-ed9f4debda58 #
+straight-curve $-1 -1 $-1 29.99999999999999289 5 -40 -10 0 0 I I #
+point $-1 -1 $-1 29.99999999999999289 5 -40 #
+End-of-ACIS-data 
